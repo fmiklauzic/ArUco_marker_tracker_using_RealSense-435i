@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<node name="adding_frame_robot_link" pkg="proba" type="add_robot_link.py" />
+	<node name="static_transformation" pkg="proba" type="static_trans_marker.py" />
+	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find proba)/rviz/rviz_temp_aruco_2.rviz" />
+	<node name="speed_controller" pkg="simple_controller" type="controller_positioning.py" /> 
+	
+	
+</launch>
+
+
