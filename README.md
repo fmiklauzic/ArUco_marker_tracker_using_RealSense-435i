@@ -29,37 +29,37 @@ https://github.com/pal-robotics/aruco_ros
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
--add_robot_link.py
+-add_robot_link.py:
 Script that are made for creating a static transformation between camera and robot frame
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
--static_trans_marker
+-static_trans_marker:
 Script that are made for creating a point in space that the mobile robot must reach
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
--controller_positioning
+-controller_positioning:
 Script that are made for the task of positioning in relation to the ArUco marker
 
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
--controller_following
+-controller_following:
 Script that are made for following ArUco marker
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
--marker_positioning.launch
+-marker_positioning.launch:
 Script made for launch nodes for positioning in relation to the ArUco marker
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
--follow_marker.launch
+-follow_marker.launch:
 Script made for launch nodes for following ArUco marker
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
-rviz_temp_aruco_2.rviz
+rviz_temp_aruco_2.rviz:
 Template for graphical display of active topics
 ---------------------------------------------------------------
