@@ -10,7 +10,7 @@ Faculty of Mechanical Engineering and Naval Architecture, Zagreb
 
 ---------------------------------------------------------------
 This repository was made as an addition to the university final thesis.
-Link:__________
+Link: __________
 
 All python scripts from this repository can be used in independent projects with minor changes
 Launch files that are attached are made for the specific case, but can be easily customized
