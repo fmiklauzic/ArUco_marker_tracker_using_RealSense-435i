@@ -41,7 +41,6 @@ Script that are made for creating a point in space that the mobile robot must re
 ---------------------------------------------------------------
 -controller_positioning:
 Script that are made for the task of positioning in relation to the ArUco marker
-
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
@@ -57,6 +56,16 @@ Script made for launch nodes for positioning in relation to the ArUco marker
 ---------------------------------------------------------------
 -follow_marker.launch:
 Script made for launch nodes for following ArUco marker
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+-find_object_2d.launch:
+Script made to launch nodes for detecting objects on the scene using RGB picture
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+-find_object_3d.launch:
+Script made to launch nodes for detecting objects on the scene using RGB and PCL data
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
