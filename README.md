@@ -69,6 +69,6 @@ Script made to launch nodes for detecting objects on the scene using RGB and PCL
 ---------------------------------------------------------------
 
 ---------------------------------------------------------------
-rviz_temp_aruco_2.rviz:
+-rviz_temp_aruco_2.rviz:
 Template for graphical display of active topics
 ---------------------------------------------------------------
