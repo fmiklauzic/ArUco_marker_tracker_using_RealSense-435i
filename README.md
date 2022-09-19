@@ -11,6 +11,11 @@ Faculty of Mechanical Engineering and Naval Architecture, Zagreb
 ---------------------------------------------------------------
 This repository was made as an addition to the university final thesis.
 Link: __________
+---------------------------------------------------------------
+summary
+Moving a mobile robot through space is a very complex task. Finding the right way and planning a trajectory can be based on different perception systems such as LIDAR, 2D and 3D vision systems. Whit a goal of recognizing and tracking a certian object, due to availability and relatively low cost, vision systems are most commonly used. The vision systems enables the perception of the working environment, while machine vision and artificial intelligence algorithms are used for its processing and interpretation.
+The main task of this final paper is to become familiar with the ROS system and to research, study and implement recognition and tracking algorithms on an existing mobile robot in the Computer Intelligence Laboratory. It is also necessary to design, develop and implement a planner by means of which the mobile robot will be  able to maintain the reauired spatial position and orientation in relation to the object it follows.
+---------------------------------------------------------------
 
 All python scripts from this repository can be used in independent projects with minor changes
 Launch files that are attached are made for the specific case, but can be easily customized
