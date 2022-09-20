@@ -2,17 +2,17 @@
 Tracking of ArUco markers using ROS, mobile robot and RealSense camera
 
 Filip Miklaužić
--Object tracking with a mobile robot using computer vision
+Object tracking with a mobile robot using computer vision
 
 Faculty of Mechanical Engineering and Naval Architecture, Zagreb
-////////////////////////////////////////////////////////////////
+
 
 
 
 This repository was made as an addition to the university final thesis.
-Link: __________
 
 
+## Summary
 Moving a mobile robot through space is a very complex task. Finding the right way and planning a trajectory can be based on different perception systems such as LIDAR, 2D and 3D vision systems. Whit a goal of recognizing and tracking a certian object, due to availability and relatively low cost, vision systems are most commonly used. The vision systems enables the perception of the working environment, while machine vision and artificial intelligence algorithms are used for its processing and interpretation.
 The main task of this final paper is to become familiar with the ROS system and to research, study and implement recognition and tracking algorithms on an existing mobile robot in the Computer Intelligence Laboratory. It is also necessary to design, develop and implement a planner by means of which the mobile robot will be  able to maintain the reauired spatial position and orientation in relation to the object it follows.
 
@@ -20,7 +20,7 @@ The main task of this final paper is to become familiar with the ROS system and 
 All python scripts from this repository can be used in independent projects with minor changes
 Launch files that are attached are made for the specific case, but can be easily customized
 
-System:
+## System:
 ROS Melodic Morenia
 Ubuntu 18.04
 Python 2.7
@@ -29,6 +29,8 @@ Required packages:
 https://github.com/pal-robotics/ddynamic_reconfigure
 https://github.com/IntelRealSense/realsense-ros.git
 https://github.com/pal-robotics/aruco_ros
+
+## Data
 
 -add_robot_link.py:
 Script that are made for creating a static transformation between camera and robot frame
@@ -57,3 +59,5 @@ Script made to launch nodes for detecting objects on the scene using RGB and PCL
 -rviz_temp_aruco_2.rviz:
 Template for graphical display of active topics
 
+-Miklauzic_Filip.pdf:
+Final thesis
